@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(2, 2, 2);
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 16px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 12px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin: 6px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(28, 34, 119);
+}
+
+a:hover {
+  color: rgb(141, 71, 71);
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgb(146, 140, 140);
+  box-sizing: border-box;
+}
+
+header {
+  height: 60px;
+  background-color: rgb(70, 69, 67);
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 3px solid grey;
+}
+
+.foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: 50px;
+}
+
+.contact,
+.about-myself,
+.example-of-code,
+.work-exprerience,
+.english-language {
+  padding: 20px;
+  border-bottom: 3px solid grey;
+}
+
+ul {
+  padding-left: 50px;
+}
+
+.about-myself p,
+.english-language p {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.about-myself span,
+.english-language span {
+  font-weight: 700;
+}
+
+.about-myself h4,
+.work-exprerience h4 {
+  padding-left: 15px;
+}
+
+.example-of-code img {
+  display: block;
+  padding-left: 10px;
+  width: 80%;
+  height: 40%;
+}
+
+.work-exprerience img {
+  width: 80%;
+  height: 40%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(153, 153, 153);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
+}
