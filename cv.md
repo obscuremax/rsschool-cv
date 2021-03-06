@@ -55,5 +55,7 @@ addKeyboard = (arr) => {
 
 ---
 
+## English language
+Proficiency level **A1** - Fly English School
 
 
