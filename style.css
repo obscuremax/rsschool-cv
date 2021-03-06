@@ -48,6 +48,7 @@ a:hover {
   margin: 0 auto;
   width: 90%;
   background-color: rgb(146, 140, 140);
+  box-sizing: border-box;
 }
 
 header {
@@ -103,11 +104,28 @@ ul {
 .example-of-code img {
   display: block;
   padding-left: 10px;
+  width: 80%;
+  height: 40%;
 }
 
 .work-exprerience img {
-  width: 843px;
-  height: 400px;
+  width: 80%;
+  height: 40%;
   padding-left: 10px;
   padding-top: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(153, 153, 153);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
 }
